@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid rgb(241, 230, 230);
+    height: 30vh;
+    width: 40vw;
+    padding: 1rem;
+    margin-top: 20vh;
+}
+.container h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: .5rem;
+}
+.icons{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.iconItem{
+    width: 50%;
+    display: flex;
+    border: 2px solid rgb(155, 154, 154);
+    border-radius: 10px;
+    margin: .5rem;
+    padding: .2rem;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.iconItem i{
+    
+    color: #02858a;
+}
+.iconItem span{
+    margin: .2rem;
+}
+.iconItem:hover{
+    
+    background-color: rgb(14, 160, 101);
+    color: rgb(240, 240, 240);
+}
+.iconItem:hover>span{
+    font-family: 'Source Code Pro', monospace;
+}
+.iconItem:hover>i{
+    color: rgb(245, 234, 226);
+}
+
+#target {
+    
+    max-width:100%;
+  }
